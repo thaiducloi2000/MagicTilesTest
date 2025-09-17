@@ -1,0 +1,21 @@
+{
+    "name": "com.team70.variable-asset-2",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [
+        "macOSStandalone"
+    ],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "Select...",
+            "expression": "",
+            "define": ""
+        }
+    ],
+    "noEngineReferences": false
+}

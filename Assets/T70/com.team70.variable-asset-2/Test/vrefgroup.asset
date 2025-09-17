@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3984495946922823169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc3a20333623642d28433f4e4db4b857, type: 3}
+  m_Name: pTransform
+  m_EditorClassIdentifier: 
+  readOnly: 0
+  debugChange: 0
+  check4Changes: 1
+  bubbleEvents: 1
+  parent: {fileID: 11400000}
+  idFromParent: pTransform
+  onChange: {fileID: 0}
+  subName: 
+  drawDefault: 0
+  pauseOnChange: 0
+  _value: {fileID: 0}
+  globalId: 
+--- !u!114 &-2691082402124309052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e06989dfc4fbf48b4a723cc378054dc8, type: 3}
+  m_Name: cMono
+  m_EditorClassIdentifier: 
+  readOnly: 0
+  debugChange: 0
+  check4Changes: 1
+  bubbleEvents: 1
+  parent: {fileID: 11400000}
+  idFromParent: cMono
+  onChange: {fileID: 0}
+  subName: 
+  drawDefault: 0
+  pauseOnChange: 0
+  _value: {fileID: 0}
+  globalId: 
+--- !u!114 &-1380431994403054681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc3a20333623642d28433f4e4db4b857, type: 3}
+  m_Name: cTransform
+  m_EditorClassIdentifier: 
+  readOnly: 0
+  debugChange: 0
+  check4Changes: 1
+  bubbleEvents: 1
+  parent: {fileID: 11400000}
+  idFromParent: cTransform
+  onChange: {fileID: 0}
+  subName: 
+  drawDefault: 0
+  pauseOnChange: 0
+  _value: {fileID: 0}
+  globalId: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60c2be603d65d49119b4946bd58e8655, type: 3}
+  m_Name: vrefgroup
+  m_EditorClassIdentifier: 
+  readOnly: 0
+  debugChange: 0
+  check4Changes: 1
+  bubbleEvents: 1
+  parent: {fileID: 0}
+  idFromParent: 
+  onChange: {fileID: 0}
+  subName: 
+  drawDefault: 0
+  pauseOnChange: 0
+  _value:
+    pTransform: {fileID: 0}
+    cTransform: {fileID: 0}
+    cMono: {fileID: 0}
+    animator: {fileID: 0}
+  container:
+    children:
+    - {fileID: -3984495946922823169}
+    - {fileID: -1380431994403054681}
+    - {fileID: -2691082402124309052}
+    - {fileID: 672994810996109250}
+  labelWPercent: 0.5
+--- !u!114 &672994810996109250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc03e2dba1976444c8fc3afd47deecea, type: 3}
+  m_Name: animator
+  m_EditorClassIdentifier: 
+  readOnly: 0
+  debugChange: 0
+  check4Changes: 1
+  bubbleEvents: 1
+  parent: {fileID: 11400000}
+  idFromParent: animator
+  onChange: {fileID: 0}
+  subName: 
+  drawDefault: 0
+  pauseOnChange: 0
+  _value: {fileID: 0}
+  globalId: 

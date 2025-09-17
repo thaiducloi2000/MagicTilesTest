@@ -1,0 +1,15 @@
+{
+	"name": "com.team70.corelib",
+	"displayName": "T70 Core-Library",
+	"version": "1.0.0",
+	"unity": "2019.1",
+	"author": "thomas@team70.cc",
+	"description": "Core Library",
+	"dependencies": {
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@gitlab.com:t70-tech/com.team70.corelib.git",
+		"revision": "c5be62694372117778e472b4fb36d41444bfcf90"
+	}
+}

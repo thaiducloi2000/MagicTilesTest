@@ -1,0 +1,15 @@
+{
+	"name": "com.team70.editor-tools",
+	"displayName": "T70 Editor Tools",
+	"version": "1.0.0",
+	"unity": "2019.1",
+	"author": "thomas@team70.cc",
+	"description": "Editor Tools",
+	"dependencies": {
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@gitlab.com:t70-tech/com.team70.editor-tools.git",
+		"revision": "8838ca6d212cae31fb1142b1140f7317a6351d1a"
+	}
+}

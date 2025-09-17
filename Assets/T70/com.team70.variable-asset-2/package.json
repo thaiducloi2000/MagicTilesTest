@@ -1,0 +1,14 @@
+{
+	"name": "com.team70.variable-asset-2",
+	"displayName": "T70 Variable-Asset-2",
+	"version": "1.0.0",
+	"unity": "2019.1",
+	"author": "thomas@team70.cc",
+	"description": "Variable Asset v2",
+	"dependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "git@gitlab.com:t70.tech/com.team70.variable-asset-2.git",
+		"revision": "f75d570fdf5c9246bb630ee84850d3fee680f632"
+	}
+}

@@ -1,0 +1,17 @@
+{
+    "name": "com.team70.visual-state-2.editor",
+    "references": [
+        "GUID:419ae8ed696f24829a184d63bdd00874"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

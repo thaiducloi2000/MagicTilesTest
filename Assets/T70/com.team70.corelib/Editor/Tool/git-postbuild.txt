@@ -1,0 +1,27 @@
+#!/bin/bash
+projectPath={{TEMPLATE_PROJECT_PATH}}
+buildAsset={{TEMPLATE_BUILD_ASSET}}
+tagInfo={{TEMPLATE_TAG}}
+branchInfo={{TEMPLATE_BRANCH}}
+
+cd ${projectPath}
+
+currentBranch=$(git branch --show-current)
+branchName=${currentBranch/release/$branchInfo}
+
+# echo ${branchName}
+
+# Commit version change
+git add ${buildAsset}
+git commit -m "[Build] Update build number - ${tagInfo}"
+git push
+
+# Create build branch, commit & adding tag  
+git checkout -b ${branchName}
+git add -A
+git commit -m "[Build]"
+git tag ${tagInfo}
+git push origin ${branchName} ${tagInfo}
+
+# Back to release
+git checkout ${currentBranch}

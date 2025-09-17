@@ -1,0 +1,17 @@
+{
+    "name": "com.team70.",
+    "references": [
+        "GUID:de88a1b3799af4beb9cd24bd9ea3862e"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
